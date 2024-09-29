@@ -3,6 +3,11 @@ Copyright © 2012-2023 jrnl contributors
 License: https://www.gnu.org/licenses/gpl-3.0.html
 -->
 
+!!! note
+このドキュメントの日本語版のための一時的なバージョンです。
+最新版を確認するには[オリジナル](https://jrnl.sh/en/stable/overview/)を
+参照ください。
+
 # Overview
 
 `jrnl` is a simple journal application for the command line.
@@ -27,7 +32,7 @@ To make it easier to find entries later, `jrnl` includes support for inline tags
 along with other search criteria.
 
 ## Support for Multiple Journals
-  
+
 `jrnl` includes support for the creation of multiple journals, each of which
 can be stored as a single file or as a set of files. Entries are automatically
 timestamped in a human-readable format that makes it easy to view multiple
@@ -42,7 +47,7 @@ more comprehensive application. `jrnl` can filter specific entries and pass them
 to the [external editor](./external-editors.md) of your choice.
 
 ## Encryption
-  
+
 `jrnl` includes support for [AES
 encryption](http://en.wikipedia.org/wiki/Advanced_Encryption_Standard). See the
 [encryption page](./encryption.md) for more information.
